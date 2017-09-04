@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<p id= "demo"></p>
+<p id= "demo1"></p>
+<p id= "demo2"></p>
+<p id= "demo3"></p>
+
+<script type="text/javascript">
+var a=0;
+var result="";
+while(a<10)
+	{
+	result +="<br>" +a;
+	a++;
+	}
+	document.getElementById("demo").innerHTML=result;
+var b=0;
+var result1="";
+	do 
+	{
+	result1 +="can add text here <br>" +b;
+	b++;
+	} 
+	while (b<10) 
+	document.getElementById("demo1").innerHTML=result1;
+var c;	
+var result2="";
+//can add two more condition like below
+for (c=0,result2="";c<10;c++)
+	{
+	result2 +="<br>" +c;
+		
+	}
+document.getElementById("demo2").innerHTML=result2;
+//add an object
+var student ={name:"mark", surname:"tesar",age:22};
+var x;
+var result3="";
+for (x in student)
+	{
+	result3 += "<br>" + student[x];
+	}
+document.getElementById("demo3").innerHTML=result3;
+</script>
+</body>
+</html>
