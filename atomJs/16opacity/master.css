@@ -1,0 +1,50 @@
+div.one{
+  background-color: rgb(50, 236, 38);
+  width: 30%;
+  height: 200px;
+  margin:10px;
+
+}
+div.one:hover{
+  background-color: rgb(50, 236, 38);
+  width: 30%;
+  height: 200px;
+  margin:10px;
+  opacity: 0.5;
+}
+div.two
+{
+  background-image: url(1.jpg);
+
+  width: 50%;
+  height: 300px;
+  position: relative;
+
+}
+div.three{
+  font-size: 40px;
+  margin:0;
+  color: rgb(226, 196, 120);
+  opacity: 0.7;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+
+}
+.four
+{
+
+  display: none;
+}
+.two:hover .two{
+  display: none;
+}
+.two:hover .three{
+  display: none;
+}
+.two:hover .four{
+  width: 50%;
+  height: 500px;
+  display: block;
+}
