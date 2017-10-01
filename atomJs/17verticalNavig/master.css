@@ -1,0 +1,29 @@
+ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  position: fixed;
+  width: 7%;
+  height: 16.5%;
+  background-color: rgba(150, 212, 103, 0.66);
+  overflow: hidden;
+}
+.one{
+  background-color: rgb(47, 87, 222);
+}
+
+li a{
+  display: inline-block;
+  width:100px;
+  margin: 5px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid red;
+  background-color: rgba(75, 232, 137, 0.57);
+
+}
+
+li a:hover:not(.one) {
+  background-color: rgba(70, 127, 193, 0.9);
+  opacity: 0.6;
+}
