@@ -1,0 +1,44 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  margin: 0;
+  padding: 0px;
+  background-color: black;
+  list-style-type: none;
+  width:35.5%;
+
+  position:fixed;
+  top: 10%;
+  left: 40%;
+  overflow: hidden;
+
+
+}
+li{
+  float: left;
+  border-right: 1px solid red;
+}
+li a{
+  display: block;
+  text-align: center;
+
+  text-decoration:none;
+  padding: 20px;
+  margin: 5px;
+  color: white;
+}
+li a:hover:not(.one){
+  background-color: rgb(84, 107, 215);
+  opacity: 0.5;
+  color: red;
+
+}
+.one{
+  background-color: rgb(222, 134, 206);
+}
+/*we also ahve firs child*/
+li:last-child{
+  border: none;
+}
