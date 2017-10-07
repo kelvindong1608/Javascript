@@ -1,0 +1,103 @@
+body{
+  background-image: url(2.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:top;
+  top:0px;
+  padding:0px;
+
+}
+ul{
+  position: absolute;
+  list-style-type: none;
+  margin:0px;
+  padding:0px;
+  top:12%;
+  left: 24%;
+  overflow: hidden;
+  height: 25%;
+
+}
+li {
+  float: left;
+  border: 1px solid rgb(79, 232, 145);
+}
+li a{
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  color: rgb(39, 36, 240);
+  padding: 10px;
+
+}
+
+.content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: rgb(228, 157, 143);
+}
+.container {
+  display: inline-block;
+
+}
+.content a{
+  text-decoration: none;
+  color: rgb(227, 237, 106);
+  display: block;
+}
+.container:hover .content
+{
+  display:block;
+}
+.container:hover .btn{
+  color: rgb(201, 79, 79);
+  background-color: rgb(132, 120, 245);
+}
+.one:hover
+{
+  color: rgb(20, 119, 187);
+  background-color: white;
+
+}
+.two:hover
+{
+  color: rgb(20, 119, 187);
+  background-color: white;
+
+}
+.three:hover
+{
+  color: rgb(20, 119, 187);
+  background-color: white;
+
+}
+
+.home {
+  color: rgb(213, 232, 151);
+font-weight:bold;
+}
+li a:hover:not(.home) {
+  background-color: rgb(138, 236, 199);
+}
+
+.corner{
+  position: absolute;
+
+  width: 20%;
+  height: 30%;
+  border: 2px solid red;
+  border-radius: 25px 0 15px 20px;
+  box-shadow: 3px 7px 10px yellow;
+  top: 50%;
+  left:50%;
+
+  transform: skewX(20deg);
+
+}
+.corner p{
+  text-shadow: 5px 5px 1px black;
+}
+.corner:hover{
+  transform: rotate(45deg);
+}
