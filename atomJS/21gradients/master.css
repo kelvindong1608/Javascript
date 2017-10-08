@@ -1,0 +1,17 @@
+/* can use to right, to left*/
+.one{
+  width: 700px;
+  height: 700px;
+  border: 2px solid red;
+  background: linear-gradient(to right,yellow, green,blue,red,violet)
+}
+
+.two{
+  width: 700px;
+  height: 700px;
+  border: 2px solid red;
+  background: radial-gradient(yellow, green,blue,red,violet)
+}
+.one,.two{
+  float: left;
+}
