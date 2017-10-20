@@ -1,0 +1,105 @@
+.one
+{
+  border: 2px solid black;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(158, 223, 78);
+  transition:width;
+  transition-duration: 3s;
+}
+.one:hover
+{
+  width: 300px;
+}
+
+.two
+{
+  border: 2px solid black;
+  width: 50%;
+  height: 100px;
+  background-color: rgb(158, 223, 78);
+  transition:width 3s,height 4s, transform 3s;
+  transition-delay:1s;
+  transition-timing-function: ease-in-out;
+
+}
+.two:hover
+{
+  width: 20%;
+  height: 400px;
+  transform: rotate(45deg);
+}
+.three
+{
+  width: 100px;
+  height: 100px;
+  animation-name: hello;
+  animation-duration: 4s;
+  border: 1px solid red;
+}
+
+@keyframes hello {
+
+from {background-color: coral;}
+to {background-color:black;}
+
+}
+.four
+{
+  width: 100px;
+  height: 100px;
+  animation-name: kelvin;
+  animation-duration: 4s;
+  border: 1px solid red;
+  animation-delay: 2s;
+  animation-iteration-count: 8;
+}
+
+@keyframes kelvin {
+
+0% {background-color: coral;}
+20% {background-color:black;}
+40% {background-color: green;}
+100% {background-color:blue;}
+}
+img{
+border-radius: 50%;
+padding: 10px;
+border: 1px solid red;
+filter: hue-rotate(45deg);
+filter: drop-shadow(10);
+
+}
+.five{
+  background-color: burlywood;
+  font-size: 20px;
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid red;
+  box-shadow: 5px 5px 5px rgb(87, 191, 221);
+}
+.six{
+  background-color: green;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid red;
+  box-shadow: 5px 5px 5px rgb(87, 191, 221);
+}
+
+.seven{
+  background-color: yellow;
+  font-size: 30px;
+  padding: 12px;
+  border-radius: 50%;
+  border: 1px solid red;
+  box-shadow: 5px 5px 5px rgb(87, 191, 221);
+}
+button:hover{
+  background-color: white;
+  transition: 1s
+}
+#end
+{
+  cursor:not-allowed;
+}
